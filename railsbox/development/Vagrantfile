@@ -76,8 +76,8 @@ Vagrant.configure('2') do |config|
       ansible.groups = {
         'application' => %w(relix),
         'vm' => %w(relix),
-        'postgresql' => %w(relix),
-        'development:children' => %w(application vm postgresql),
+        'postgres' => %w(relix),
+        'development:children' => %w(application vm postgres),
       }
       ansible.tags = ENV['TAGS']
       ansible.raw_arguments = ENV['ANSIBLE_ARGS']
