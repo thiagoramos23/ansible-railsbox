@@ -1,6 +1,6 @@
 ---
-vm_name: teste
-path: /teste
+vm_name: relix
+path: /relix
 
 git_branch: master
 vm_os: ubuntu/trusty64
@@ -23,7 +23,7 @@ server_name: localhost
 rails_version: 4
 ruby_install: rvm
 ruby_version: 2.1.2
-environment_file: /teste
+environment_file: /relix
 
 databases:
   - postgresql
@@ -33,12 +33,12 @@ mysql_orm: activerecord
 mongodb_orm: none
 redis_orm: none
 mongodb_db_name: myapp
-mysql_db_name: teste
-mysql_db_user: teste
-mysql_db_password: teste
-postgresql_db_name: teste
-postgresql_db_user: teste
-postgresql_db_password: teste
+mysql_db_name: relix
+mysql_db_user: relix
+mysql_db_password: relix
+postgresql_db_name: relix
+postgresql_db_user: relix
+postgresql_db_password: relix
 
 postgresql_extensions:
 delayed_job_command: script/delayed_job run

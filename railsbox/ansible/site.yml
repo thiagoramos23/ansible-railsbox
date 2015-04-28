@@ -10,9 +10,9 @@
   tasks:
     - apt: update_cache=yes
 
-- hosts: postgres
+- hosts: postgresql
   roles:
-    - postgres
+    - postgresql
 
 
 - hosts: application
